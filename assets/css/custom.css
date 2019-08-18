@@ -86,13 +86,14 @@ input[type=radio] {
     padding-top: 20px;
     padding-bottom: 20px;
     color: #fff;
-    text-align: center;
-    top: 24%;
+    text-align: left;
+    top: 10%;
+	width:40%;
 }
 #c1 .carousel-caption h3
 {
 	background: rgba(0, 104, 55, 0.8);
-    padding: 12px 70px;
+    padding: 6px 70px 6px 6px;
     display: inline-block;
     margin-bottom: 0px;
 	font-size: 32px !important;
@@ -124,6 +125,7 @@ input[type=radio] {
     color: green;
 	font-size: 16px;
 }
+
 .lbtn
 {
 	background: #f2f2f2;
