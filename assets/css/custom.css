@@ -140,17 +140,18 @@ input[type=radio] {
 
 .lbtn
 {
-	background: #f2f2f2;
-    padding: 5px 35px;
-    border-radius: 4px;
+	background: #0a5b35;
+    padding: 10px 35px;
+    border-radius: 20px;
+    color: #fff;
 }
 .lbtn a
 {
-	color:#333;
+	color:#fff;
 }
 .lbtn:hover a
 {
-	color:#fff;
+	color:#ff0;
 }
 .lbtn:hover
 {
