@@ -5651,11 +5651,11 @@ table.grid td {
 }
 #c1 .carousel-caption h3
 {
-	background: rgba(0, 104, 55, 0.8);
+	background: transparent;
     padding: 6px 6px 6px 6px;
     display: inline-block;
     margin-bottom: 0px;
-	font-size: 32px !important;
+	font-size: 36px !important;
 }
 .carousel-caption {
     position: absolute;

@@ -88,16 +88,22 @@ input[type=radio] {
     color: #fff;
     text-align: center;
     top: 24%;
-    width: 66%;
+    width: 67%;
     background: transparent;
 }
 #c1 .carousel-caption h3
 {
-	background: rgba(0, 104, 55, 0.8);
-    padding: 6px 6px 6px 6px;
+	background: transparent;
     display: inline-block;
     margin-bottom: 0px;
-	font-size: 32px !important;
+	font-size: 36px !important;
+}
+#c1 .carousel-caption p
+{
+	background: transparent;
+    display: inline-block;
+    margin-bottom: 0px;
+	font-size: 22px !important;
 }
 .carousel-caption {
     position: absolute;
