@@ -5645,7 +5645,7 @@ table.grid td {
     padding-bottom: 20px;
     color: #fff;
     text-align: center;
-    top: 24%;
+    top: 24% !important;
     width: 66%;
     background: transparent;
 }
@@ -5667,7 +5667,7 @@ table.grid td {
     padding-bottom: 20px;
     color: #fff;
     text-align: center;
-    top: 56% !important;
+    top: 71% !important;
     background: rgba(0, 104, 55, 0.78);
     width: 100%;
 }
