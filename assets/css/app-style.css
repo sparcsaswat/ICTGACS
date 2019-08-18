@@ -5625,7 +5625,69 @@ table.grid td {
 
 
 /* Responsive */
+@media only screen and (max-width: 1600px) {
 
+   .error-pages {
+	 margin-top: 110px;
+  }
+
+  .coming-soon{
+	margin-top: 110px;
+}
+#c1 .carousel-caption
+{
+	position: absolute;
+    right: 20% !important;
+    bottom: 20px;
+    left: 15% !important;
+    z-index: 10;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #fff;
+    text-align: center;
+    top: 24%;
+    width: 66%;
+    background: transparent;
+}
+#c1 .carousel-caption h3
+{
+	background: rgba(0, 104, 55, 0.8);
+    padding: 6px 6px 6px 6px;
+    display: inline-block;
+    margin-bottom: 0px;
+	font-size: 32px !important;
+}
+.carousel-caption {
+    position: absolute;
+    right: 0;
+    bottom: 20px;
+    left: 0;
+    z-index: 10;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #fff;
+    text-align: center;
+    top: 56%;
+    background: rgba(0, 104, 55, 0.78);
+    width: 100%;
+}
+.carousel-caption h3
+{
+	background: transparent;
+    padding: 6px 70px 6px 6px;
+    display: inline-block;
+    margin-bottom: 0px;
+	font-size: 32px !important;
+}
+.carousel-caption p
+{
+	background: transparent;
+    padding: 6px 34px 6px 6px;
+    color: #fff;
+	font-size: 16px;
+}
+
+}
 @media only screen and (max-width: 1366px) {
 
    .error-pages {
