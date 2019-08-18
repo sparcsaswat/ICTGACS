@@ -10,13 +10,13 @@ $(function() {
 				data: {
 					labels: ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct"],
 					datasets: [{
-						label: 'Support Costs',
+						label: 'Profit',
 						data: [25, 23, 27, 15, 27, 23, 31, 41, 31, 25, 35],
 						backgroundColor: 'rgba(0, 0, 0, 0.13)',
 						borderColor: "transparent",
 						borderWidth: 3
 					}, {
-						label: 'Revenue',
+						label: 'Seed cost',
 						type: 'line',
 						data: [10, 8, 12, 5, 12, 8, 16, 25, 15, 10, 20],
 						backgroundColor: "rgba(243, 38, 89, 0.36)",
@@ -78,7 +78,7 @@ $(function() {
 				data: {
 					labels: ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"],
 					datasets: [{
-						label: 'Request Volume',
+						label: 'Expenditure',
 						data: [10, 40, 20, 40, 40, 60, 40, 80, 40, 70, 40, 70],
 						backgroundColor: '#02ba5a',
 						borderColor: "transparent",
@@ -86,7 +86,7 @@ $(function() {
 						lineTension :'0',
 						borderWidth: 3
 					}, {
-						label: 'Service Level',
+						label: 'Profit',
 						data: [30, 60, 50, 60, 60, 80, 60, 120, 60, 100, 60, 100],
 						backgroundColor: "rgba(2, 186, 90, 0.52)",
 						borderColor: "transparent",
