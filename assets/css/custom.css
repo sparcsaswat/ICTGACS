@@ -76,6 +76,27 @@ input[type=radio] {
 {
 	margin-top: 20px;
 }
+#c1 .carousel-caption
+{
+	position: absolute;
+    right: 15%;
+    bottom: 20px;
+    left: 15%;
+    z-index: 10;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #fff;
+    text-align: center;
+    top: 24%;
+}
+#c1 .carousel-caption h3
+{
+	background: rgba(0, 104, 55, 0.8);
+    padding: 12px 70px;
+    display: inline-block;
+    margin-bottom: 0px;
+	font-size: 32px !important;
+}
 .carousel-caption {
     position: absolute;
     right: 15%;
@@ -85,8 +106,23 @@ input[type=radio] {
     padding-top: 20px;
     padding-bottom: 20px;
     color: #fff;
-    text-align: center;
-    top: 29%;
+    text-align: left;
+    top: 45%;
+}
+.carousel-caption h3
+{
+	background: rgba(0, 104, 55, 0.8);
+    padding: 6px 70px 6px 6px;
+    display: inline-block;
+    margin-bottom: 0px;
+	font-size: 32px !important;
+}
+.carousel-caption p
+{
+	background: rgba(255, 255, 255, 0.8);
+    padding: 6px 34px 6px 6px;
+    color: green;
+	font-size: 16px;
 }
 .lbtn
 {

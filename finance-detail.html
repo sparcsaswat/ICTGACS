@@ -38,7 +38,7 @@
    <div id="sidebar-wrapper" class="bg-theme bg-theme2" data-simplebar="" data-simplebar-auto-hide="true">
      <div class="brand-logo">
       <a href="index.html">
-       <img src="assets/images/logo2.png" class="logo-icon" alt="logo icon">
+       <img src="assets/images/logo3.png" class="logo-icon" alt="logo icon">
        
      </a>
    </div>
@@ -62,7 +62,7 @@
         </a>
 	  </li>
 	  <li>
-		<a href="table-view.html" class="waves-effect">
+		<a href="finance-detail.html" class="waves-effect">
           <i class="zmdi zmdi-view-dashboard"></i> <span>Finance Details</span>
         </a>
 	  </li>
@@ -81,12 +81,7 @@
        <i class="icon-menu menu-icon"></i>
      </a>
     </li>
-    <li class="nav-item">
-      <form class="search-bar">
-        <input type="text" class="form-control" placeholder="Enter keywords">
-         <a href="javascript:void();"><i class="icon-magnifier"></i></a>
-      </form>
-    </li>
+    
   </ul>
      
   <ul class="navbar-nav align-items-center right-nav-link">
@@ -197,15 +192,7 @@
         </ul>
       </div>
     </li>
-    <li class="nav-item language">
-      <a class="nav-link dropdown-toggle dropdown-toggle-nocaret waves-effect" data-toggle="dropdown" href="javascript:void();"><i class="fa fa-flag"></i></a>
-      <ul class="dropdown-menu dropdown-menu-right">
-          <li class="dropdown-item"> <i class="flag-icon flag-icon-gb mr-2"></i> English</li>
-          <li class="dropdown-item"> <i class="flag-icon flag-icon-fr mr-2"></i> French</li>
-          <li class="dropdown-item"> <i class="flag-icon flag-icon-cn mr-2"></i> Chinese</li>
-          <li class="dropdown-item"> <i class="flag-icon flag-icon-de mr-2"></i> German</li>
-        </ul>
-    </li>
+    
     <li class="nav-item">
       <a class="nav-link dropdown-toggle dropdown-toggle-nocaret" data-toggle="dropdown" href="#">
         <span class="user-profile"><img src="assets/images/avatars/avatar-13.png" class="img-circle" alt="user avatar"></span>
@@ -222,14 +209,7 @@
            </div>
           </a>
         </li>
-        <li class="dropdown-divider"></li>
-        <li class="dropdown-item"><i class="icon-envelope mr-2"></i> Inbox</li>
-        <li class="dropdown-divider"></li>
-        <li class="dropdown-item"><i class="icon-wallet mr-2"></i> Account</li>
-        <li class="dropdown-divider"></li>
-        <li class="dropdown-item"><i class="icon-settings mr-2"></i> Setting</li>
-        <li class="dropdown-divider"></li>
-        <li class="dropdown-item"><i class="icon-power mr-2"></i> Logout</li>
+        <li class="dropdown-item"><a href="home-page.html"><i class="icon-power mr-2"></i> Logout</a></li>
       </ul>
     </li>
   </ul>
@@ -243,15 +223,189 @@
     <div class="container-fluid">
 	
 	
-	
-  
-   
+	<div class="col-lg-12">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Finance Details</h5>
+			  <div class="table-responsive">
+              <table class="table table-bordered">
+                <thead>
+                  <tr>
+                    
+                    <th scope="col">#Sl no.</th>
+                    <th scope="col">Farmer Name</th>
+                    <th scope="col">Date of Seeding</th>
+                    <th scope="col">Date of Production</th>
+                    <th scope="col">Loan Amount</th>
+                    <th scope="col">Production Amount</th>
+                    <th scope="col">Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>1</td>
+                    <td>Anupam Das</td>
+                    <td>17.08.2019</td>
+                    <td>26.12.2019</td>
+                    <td>1,00,000</td>
+                    <td>7,50,000</td>
+                    <td><a href="javascript:void();" data-toggle="modal" data-target="#defaultsizemodal1"><i aria-hidden="true" class="fa fa-eye"></i> </td>
+                  </tr>
+                  <tr>
+                    <td>2</td>
+                    <td>Mani Sankar</td>
+                    <td>17.08.2019</td>
+                    <td>26.12.2019</td>
+                    <td>1,00,000</td>
+                    <td>7,50,000</td>
+                    <td><a href="javascript:void();" data-toggle="modal" data-target="#defaultsizemodal2"><i aria-hidden="true" class="fa fa-eye"></i> </td>
+                  </tr>
+                  <tr>
+                    <td>3</td>
+                    <td>Raja Asutosh</td>
+                    <td>17.08.2019</td>
+                    <td>26.12.2019</td>
+                    <td>1,00,000</td>
+                    <td>7,50,000</td>
+                    <td><a href="javascript:void();" data-toggle="modal" data-target="#defaultsizemodal3"><i aria-hidden="true" class="fa fa-eye"></i> </td>
+                  </tr>
+				  
+                </tbody>
+              </table>
+            </div>
+            </div>
+          </div>
+        </div>
+	</div>
+   </div>
     
 	 
      
     </div>
     <!-- End container-fluid-->
-
+<div class="modal fade" id="defaultsizemodal1">
+                  <div class="modal-dialog modal-lg">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title">Details of the applicant</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                          <span aria-hidden="true">&times;</span>
+                        </button>
+                      </div>
+                      <div class="modal-body">
+							<div class="table-responsive">
+								<table class="table table-bordered">
+									<tbody>
+										<tr>
+											<td width="100"><b>Farmer Id</b></td><td>00001</td>
+											<td width="100"><b>Farmer Name</b></td><td>Anupam Das</td>
+										</tr>
+										<tr>
+											<td width="100"><b>Seed Type</b></td><td>NA</td>
+											<td width="100"><b>Date of Seeding</b></td><td>17.08.2019</td>
+										</tr>
+										<tr>
+											<td width="100"><b>Date of Production</b></td><td>25.12.2019</td>
+											<td width="100"><b>Loan Amount</b></td><td>1,00,000</td>
+										</tr>
+										<tr>
+											<td width="100"><b>Production Amount</b></td><td colspan="3">7,50,000</td>
+											
+										</tr>
+									</tbody>
+								</table>
+							</div>
+							<textarea class="form-control" rows="3"></textarea>
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-danger" data-dismiss="modal"><i class="fa fa-times"></i></button>
+                        <button type="button" class="btn btn-primary"><i class="fa fa-check"></i></button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+				<div class="modal fade" id="defaultsizemodal2">
+                  <div class="modal-dialog modal-lg">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title">Details of the applicant</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                          <span aria-hidden="true">&times;</span>
+                        </button>
+                      </div>
+                      <div class="modal-body">
+							<div class="table-responsive">
+								<table class="table table-bordered">
+									<tbody>
+										<tr>
+											<td width="100"><b>Farmer Id</b></td><td>00002</td>
+											<td width="100"><b>Farmer Name</b></td><td>Mani Sankar</td>
+										</tr>
+										<tr>
+											<td width="100"><b>Seed Type</b></td><td>NA</td>
+											<td width="100"><b>Date of Seeding</b></td><td>17.08.2019</td>
+										</tr>
+										<tr>
+											<td width="100"><b>Date of Production</b></td><td>25.12.2019</td>
+											<td width="100"><b>Loan Amount</b></td><td>1,00,000</td>
+										</tr>
+										<tr>
+											<td width="100"><b>Production Amount</b></td><td colspan="3">7,50,000</td>
+											
+										</tr>
+									</tbody>
+								</table>
+							</div>
+							<textarea class="form-control" rows="3"></textarea>
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-danger" data-dismiss="modal"><i class="fa fa-times"></i></button>
+                        <button type="button" class="btn btn-primary"><i class="fa fa-check"></i></button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+				<div class="modal fade" id="defaultsizemodal3">
+                  <div class="modal-dialog modal-lg">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title">Details of the applicant</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                          <span aria-hidden="true">&times;</span>
+                        </button>
+                      </div>
+                      <div class="modal-body">
+							<div class="table-responsive">
+								<table class="table table-bordered">
+									<tbody>
+										<tr>
+											<td width="100"><b>Farmer Id</b></td><td>00001</td>
+											<td width="100"><b>Farmer Name</b></td><td>Raja Asutosh</td>
+										</tr>
+										<tr>
+											<td width="100"><b>Seed Type</b></td><td>NA</td>
+											<td width="100"><b>Date of Seeding</b></td><td>17.08.2019</td>
+										</tr>
+										<tr>
+											<td width="100"><b>Date of Production</b></td><td>25.12.2019</td>
+											<td width="100"><b>Loan Amount</b></td><td>1,00,000</td>
+										</tr>
+										<tr>
+											<td width="100"><b>Production Amount</b></td><td colspan="3">7,50,000</td>
+											
+										</tr>
+									</tbody>
+								</table>
+							</div>
+							<textarea class="form-control" rows="3"></textarea>
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-danger" data-dismiss="modal"><i class="fa fa-times"></i></button>
+                        <button type="button" class="btn btn-primary"><i class="fa fa-check"></i></button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
 </div><!--End content-wrapper-->
    <!--Start Back To Top Button-->
     <a href="javaScript:void();" class="back-to-top"><i class="fa fa-angle-double-up"></i> </a>
@@ -267,40 +421,7 @@
     </footer>
 	<!--End footer-->
 	
-   <!--start color switcher-->
-   <div class="right-sidebar">
-    <div class="switcher-icon">
-      <i class="zmdi zmdi-settings zmdi-hc-spin"></i>
-    </div>
-    <div class="right-sidebar-content">
-
-      <p class="mb-0">Gaussion Texture</p>
-      <hr>
-      
-      <ul class="switcher">
-        <li id="theme1"></li>
-        <li id="theme2"></li>
-        <li id="theme3"></li>
-        <li id="theme4"></li>
-        <li id="theme5"></li>
-        <li id="theme6"></li>
-      </ul>
-
-      <p class="mb-0">Gradient Background</p>
-      <hr>
-      
-      <ul class="switcher">
-        <li id="theme7"></li>
-        <li id="theme8"></li>
-        <li id="theme9"></li>
-        <li id="theme10"></li>
-        <li id="theme11"></li>
-        <li id="theme12"></li>
-      </ul>
-      
-     </div>
-   </div>
-  <!--end color cwitcher-->
+   
 	
   </div><!--End wrapper-->
   
